@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.hoteltour.SearchView android:id="@id/ll_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/view_rl" android:background="#ff7ec0ee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/ll_search" />
+    <RelativeLayout android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_below="@id/view_rl">
+        <android.support.v4.view.ViewPager android:id="@id/viewpager_home" android:layout_width="fill_parent" android:layout_height="190.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_point_container_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/icon_ll" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ad">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_2" android:background="@drawable/ll_bg1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_4" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="第四空间之旅" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_1" android:background="@drawable/ll_bg2" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/image_1" android:layout_width="30.0dip" android:layout_height="20.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="轻奢酒店之旅" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_4" android:background="@drawable/ll_bg3" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/image_2" android:layout_width="30.0dip" android:layout_height="20.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="禅修之旅" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_3" android:background="@drawable/ll_bg4" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_6" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="亲子童趣之旅" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_5" android:background="@drawable/ll_bg5" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/image_3" android:layout_width="30.0dip" android:layout_height="20.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="白领女性之旅" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_6" android:background="@drawable/ll_bg6" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                    <ImageView android:background="@drawable/image_5" android:layout_width="30.0dip" android:layout_height="20.0dip" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="猎奇酒店之旅" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

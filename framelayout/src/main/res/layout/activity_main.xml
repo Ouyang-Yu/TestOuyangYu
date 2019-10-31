@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:foreground="@mipmap/ic_launcher"
+    android:foregroundGravity="right|bottom"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:background="#ff0000ff"
+        android:text="Blue"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:background="#ff0077ff"
+        android:text="SkyBlue"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:background="#ff00b4ff"
+        android:text="WaterBlue"
+        android:textColor="#ffffff"
+        />
+
+</FrameLayout>

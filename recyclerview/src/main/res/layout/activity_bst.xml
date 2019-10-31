@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BST">
+
+    <androidx.appcompat.widget.Toolbar
+        android:fitsSystemWindows="true"
+        android:id="@+id/maptoolbar"
+        app:title="找到你身边的非遗"
+        app:titleTextColor="@color/toolBarTitleColor"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/googleRed">
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/text"
+        android:visibility="gone"
+
+        />
+
+    <com.baidu.mapapi.map.MapView
+        android:fitsSystemWindows="true"
+        android:id="@+id/mapView"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.baidu.mapapi.map.MapView>
+</LinearLayout>

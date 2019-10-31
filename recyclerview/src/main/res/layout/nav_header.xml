@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:background="@color/googleRed" xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="176dp">
+
+
+
+    <RelativeLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/portrait"
+            android:layout_centerInParent="true"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/tou" />
+
+        <TextView
+            android:id="@+id/mail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:text="2455356027@qq.com"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/nav_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/mail_name"
+            android:text="欧阳煜"
+            android:textColor="@color/white"
+
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

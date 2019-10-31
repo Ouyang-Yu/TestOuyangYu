@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<group android:checkableBehavior="single">-->
+
+
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/location"
+            android:title="寻找身边的非遗" />
+
+    <!--</group>-->
+    <item
+        android:id="@+id/record"
+        android:title="记录身边的非遗"
+        android:icon="@drawable/camera"
+        />
+    <item
+        android:id="@+id/museum"
+        android:title="非遗博物馆"
+        android:icon="@drawable/museum"
+        />
+    <item
+        android:id="@+id/movie"
+        android:title="非遗映象"
+        android:icon="@drawable/movie"
+        />
+    <item
+        android:id="@+id/down_load"
+        android:title="资料下载"
+        android:icon="@drawable/download"
+        />
+    <item
+        android:id="@+id/collect"
+        android:icon="@drawable/collect"
+        android:title="我的收藏"/>
+    <item
+        android:id="@+id/nearby"
+        android:icon="@drawable/nearby"
+        android:title="附近的人"/>
+
+
+
+
+
+
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/setting"
+                android:title="设置"/>
+            <item
+                android:id="@+id/kefu"
+                android:icon="@drawable/kefu"
+                android:title="客服小妹"/>
+
+
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="帮助与反馈"/>
+            <item
+                android:id="@+id/weather"
+                android:title="今天的好天气"
+                android:icon="@drawable/weather"
+                />
+
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/sign_out"
+                android:title="退出登录"/>
+
+        </menu>
+    </item>
+</menu>

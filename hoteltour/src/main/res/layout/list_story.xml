@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_story" android:layout_width="140.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff111111" android:id="@id/tv_item_place" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="地点" android:layout_below="@id/iv_story" android:layout_alignLeft="@id/iv_story" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/tv_item_title" android:layout_width="110.0dip" android:layout_height="50.0dip" android:text="大海家很棒，重点推荐" android:layout_toRightOf="@id/tv_item_place" android:layout_alignTop="@id/tv_item_place" />
+    <ImageView android:id="@id/iv_user" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/myfollow" android:layout_below="@id/tv_item_title" />
+    <ImageView android:id="@id/iv_like" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/mylike" android:layout_toRightOf="@id/iv_user" android:layout_below="@id/tv_item_title" />
+    <TextView android:textColor="#ff999999" android:id="@id/tv_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:text="0" android:layout_toRightOf="@id/iv_like" android:layout_alignTop="@id/iv_like" />
+    <ImageView android:id="@id/iv_char" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:src="@android:drawable/sym_action_chat" android:layout_toRightOf="@id/tv_like_count" android:layout_below="@id/tv_item_title" />
+    <TextView android:textColor="#ff999999" android:id="@id/tv_char_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="2.0dip" android:text="0" android:layout_toRightOf="@id/iv_char" android:layout_alignTop="@id/iv_char" />
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll" android:background="@color/home_color" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tab_home" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/iv_home " android:background="@drawable/home" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_tab_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="酒店精选" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tab_story " android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/iv_buy " android:background="@drawable/dynamic" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_tab_story" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="故事" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tab_massage " android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/iv_massage " android:background="@drawable/massage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_tab_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="消息" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_tab_mine" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/iv_mine" android:background="@drawable/mine" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/tv_tab_mine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我的" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll" />
+    <View android:id="@id/view_line" android:background="#ff7ec0ee" android:layout_width="100.0dip" android:layout_height="3.0dip" android:layout_alignTop="@id/ll" />
+</RelativeLayout>

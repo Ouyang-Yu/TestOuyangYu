@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:entries="@array/ctype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+ <!--   <resources>
+        <string-array name="ctype">
+            <item>all</item>
+            <item>movie</item>
+            <item>book</item>
+            <item>music</item>
+            <item>group</item>
+            <item>activity</item>
+        </string-array>
+    </resources>-->
+
+</LinearLayout>

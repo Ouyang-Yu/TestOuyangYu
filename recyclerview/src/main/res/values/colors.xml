@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF009925</color><!--toolbar-->
+    <color name="colorPrimaryDark">#00000000</color><!--状态栏-->
+    <color name="colorAccent">#FF009925</color><!--悬浮按钮-->
+    <color name="toolBarTitleColor">#fff</color>
+    <color name="white">#fff</color>
+
+
+    <color name="googleGreen">#FF009925</color>
+    <color name="googleBlue">#FF3369E8</color>
+    <color name="googleYellow">#FFEEB211</color>
+    <color name="googleRed">#FFD50F25</color>
+
+</resources>

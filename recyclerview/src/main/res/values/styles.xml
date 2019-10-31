@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/googleRed</item>  <!--toolbar颜色-->
+        <item name="colorPrimaryDark">@color/googleRed</item><!--状态栏颜色-->
+        <item name="colorAccent">@color/googleRed</item>  <!--悬浮按钮颜色-->
+
+
+
+    </style>
+
+    <style name="statusBarRed" parent="AppTheme">
+        <!--<item name="android:windowBackground">@color/googleRed</item>--><!--所有页面背景-->
+
+        <item name="android:statusBarColor">
+            @color/googleRed
+        </item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+
+    <style name="statusBarTransparent" parent="AppTheme">
+        <!--<item name="android:windowBackground">@color/googleRed</item>--><!--所有页面背景-->
+
+        <item name="android:statusBarColor">
+            @color/googleRed
+        </item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+    </style>
+
+
+</resources>

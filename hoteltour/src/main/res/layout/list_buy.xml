@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff212121" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="普兰特｜五星记忆棉枕 舒适护颈安眠（预售9月30日后开始发货）" android:layout_toRightOf="@id/icon" />
+    <TextView android:textSize="14.0sp" android:textColor="#fff0723e" android:ellipsize="end" android:id="@id/tv_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="￥3695.00" android:layout_toRightOf="@id/icon" android:layout_below="@id/tv_title" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/tv_type" android:background="#ffff7733" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="订购" android:layout_alignBottom="@id/icon" android:layout_alignParentRight="true" />
+</RelativeLayout>

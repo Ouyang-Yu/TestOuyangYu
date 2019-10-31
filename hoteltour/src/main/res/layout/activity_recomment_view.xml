@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.hoteltour.SearchView android:id="@id/ll_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="美景推荐" />
+        <ListView android:id="@id/lv_recomment_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="周边景点" />
+    <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_1" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_1" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_2" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_2" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_3" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_3" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_4" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_4" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_5" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_5" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:id="@id/tv_recomment_6" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="景点名称" />
+                <ImageView android:id="@id/img_recomment_6" android:paddingRight="10.0dip" android:layout_width="160.0dip" android:layout_height="100.0dip" android:src="@drawable/iclauncher" android:scaleType="fitXY" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".clause">
+
+    <androidx.appcompat.widget.Toolbar
+        android:fitsSystemWindows="true"
+        android:id="@+id/clausetoolabr"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="服务条款"
+        app:titleTextColor="@color/toolBarTitleColor"
+        android:background="@color/googleRed">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="15dp"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="玩转非遗服务条款:"
+            android:textColor="@color/googleRed"
+            android:textSize="16sp"/>
+        <TextView
+            android:id="@+id/fruit_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="  \n         玩转非遗通过互联网络为您提供一种全新的在线社交方式；您只有完全同意下列所有服务条款并完成注册程序，才能成为玩转非遗的用户并使用相应服务。您在使用玩转非遗提供的各项服务之前，应仔细阅读本用户协议。\n\n\n服务内容:\n         本软件为参赛演示版本，后期将会完善所有基础功能以及附加功能，玩转非遗的具体服务内容由玩转非遗根据实际情况提供，例如个人信息、个人分享信息以及评论，在线交流等。玩转非遗保留变更、中断或终止部分网络服务的权利。\n         玩转非遗保留根据实际情况随时调整玩转非遗平台提供的服务种类、形式。玩转非遗不承担因业务调整给用户造成的损失。
+ "/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

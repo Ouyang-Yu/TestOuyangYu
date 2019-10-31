@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hoteltour">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name=".SplashActivity"/>
+
+        <activity android:name="com.example.hoteltour.LoginActivity"/>
+
+        <activity android:name="com.example.hoteltour.Description"/>
+
+        <activity android:name="com.example.hoteltour.RegisterActivity"/>
+        <activity android:name="com.example.hoteltour.HomeActivity"/>
+
+        <activity android:launchMode="singleTask" android:name="com.example.hoteltour.KillApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.hoteltour.SettingActivity"/>
+
+        <activity android:name="com.example.hoteltour.CommonActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.BookHotelActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.ButtonShowActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.RecommentViewActivity"/>
+
+
+        <activity android:name="com.example.hoteltour.hotel.activity.FoodActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.ExperienceActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.HotelActivity"/>
+
+        <activity android:name="com.example.hoteltour.hotel.activity.HotelListActivity"/>
+    </application>
+
+</manifest>

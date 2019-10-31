@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_mine" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/mine_bg" android:background="@drawable/mine_bg" android:layout_width="fill_parent" android:layout_height="250.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/setting" android:background="@drawable/setting_onclick" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/tv_myname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_alignBottom="@id/mine_bg" />
+        <ImageView android:id="@id/touxiang_new" android:background="@drawable/touxiang_new" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="24.0dip" android:layout_below="@id/setting" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <GridView android:id="@id/gv_mine" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" android:listSelector="#00000000" android:horizontalSpacing="10.0dip" android:verticalSpacing="20.0dip" android:numColumns="4" android:layout_below="@id/rl_mine" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>all</item>
+        <item>movie</item>
+        <item>book</item>
+        <item>music</item>
+        <item>group</item>
+        <item>activity</item>
+    </string-array>
+</resources>

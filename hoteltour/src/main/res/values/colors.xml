@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="bg_color">#ffececec</color>
+    <color name="home_color">#ff535353</color>
+    <color name="myred">#ffeb4f38</color>
+    <color name="darkgray">#cccccccc</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="btn_press_color">#ff5677fc</color>
+    <color name="btn_pressed_color">#ff3ca0ec</color>
+    <color name="bg1">#ffb7c280</color>
+    <color name="bg2">#9fd2691e</color>
+    <color name="bg3">#9f77a7bd</color>
+    <color name="bg4">#ff00bfff</color>
+    <color name="bg5">#7f8b008b</color>
+    <color name="bg6">#fff08080</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.hoteltour.SearchView android:id="@id/ll_search" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/view_rl" android:background="#ff7ec0ee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/ll_search" />
+    <RelativeLayout android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_below="@id/view_rl">
+        <android.support.v4.view.ViewPager android:id="@id/viewpager_home" android:layout_width="fill_parent" android:layout_height="190.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_point_container_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/icon_ll" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ad">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_1" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_1" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="轻奢酒店之旅" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_2" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_4" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="第四空间之旅" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_3" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_6" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="亲子童趣之旅" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_4" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_2" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="禅修酒店之旅" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_5" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_3" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="白领女性之旅" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_6" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/image_5" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="猎奇酒店之旅" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_7" android:background="@drawable/more_item_press" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/like" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="自定义生活" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_8" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="22.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:text="    +    " />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/icon_9" android:background="@drawable/more_item_press" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="22.0sp" android:textColor="#ff000000" android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:text="    +    " />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

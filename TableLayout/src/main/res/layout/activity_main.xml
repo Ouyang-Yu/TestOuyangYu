@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,3"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <TableRow
+        android:paddingTop="20dp"
+        >
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="account"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:hint="phone number"
+            />
+    </TableRow>
+    <TableRowb
+        >
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:hint="输入6-12位数字或字母"
+            />
+    </TableRowb>
+    <TableRow
+        >
+        <TextView />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:textSize="18dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:text="log in"
+            android:background="#ff8247"
+            />
+    </TableRow>
+
+    <TableRow android:paddingTop="200dp">
+
+        <TextView />
+
+        <TextView />
+
+        <TextView
+            android:layout_gravity="right"
+            android:text="forget password?"
+            android:textColor="#ff4500" />
+
+        <TextView />
+    </TableRow>
+</TableLayout>

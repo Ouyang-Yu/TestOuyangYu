@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/layout_press" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/iv_head" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="10.0dip" android:src="@drawable/touxiang_new" />
+                    <TextView android:textSize="20.0sp" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="伪笑" android:layout_toRightOf="@id/iv_head" android:layout_alignTop="@id/iv_head" />
+                    <TextView android:textColor="#ff999999" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="今天17:14" android:layout_toRightOf="@id/iv_head" android:layout_alignBottom="@id/iv_head" />
+                    <ImageView android:id="@id/iv_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:src="@drawable/invite_friends" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+                <ImageView android:id="@id/iv_img1" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/ms_4_2" android:scaleType="fitXY" />
+                <ImageView android:id="@id/iv_img2" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="200.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/launcher" android:scaleType="fitXY" android:layout_below="@id/iv_img1" />
+                <TextView android:textSize="16.0sp" android:id="@id/tv_story" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="这里卖各种骨头、化石、标本等奇奇怪怪的东西，产品的陈列很有格调，虽然东西繁多，但有序而美观。一些东西真的让我开脑洞，比如装在试管里的小干鼠，45亿年前的小陨石块。不赶时间的" android:layout_below="@id/iv_img2" android:lineSpacingExtra="5.0dip" android:letterSpacing="0.05" />
+                <TextView android:textColor="#ff999999" android:id="@id/tv_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="发表评论：" android:layout_below="@id/tv_story" />
+                <EditText android:textSize="14.0sp" android:gravity="center|left|top" android:id="@id/et_edit" android:background="@drawable/search_edittext_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:hint="请输入你的评论：" android:maxLines="6" android:minLines="3" android:layout_below="@id/tv_edit" android:inputType="textMultiLine" />
+                <Button android:id="@id/btn_submit" android:background="@drawable/button_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="提交" android:layout_below="@id/et_edit" android:layout_alignRight="@id/et_edit" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

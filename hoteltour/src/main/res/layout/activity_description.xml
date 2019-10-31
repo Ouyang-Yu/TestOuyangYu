@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color">
+
+    <RelativeLayout
+        android:id="@id/rl_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/home_color">
+
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="服务条款"
+            android:textColor="#ffffffff" />
+
+        <ImageView
+            android:id="@id/iv_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_title"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="23.0dip"
+            android:background="@drawable/back_onclick"
+            android:paddingLeft="20.0dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/tv_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_desc"
+        android:layout_margin="5.0dip"
+        android:background="@drawable/layout_press"
+        android:fadeScrollbars="false"
+        android:lineSpacingExtra="5.0dip"
+        android:padding="5.0dip"
+        android:scrollbars="vertical"
+        android:text="跟着酒店去旅行服务条款:\n
+         跟着酒店去旅行通过互联网络为您提供一种全新的在线社交方式；
+         您只有完全同意下列所有服务条款并完成注册程序
+         ，
+         才能成为跟着酒店去旅行的用户并使用相应服务。
+         您在使用跟着酒店去旅行提供的各项服务之前，
+         应仔细阅读本用户协议。\n \n服务内容:\n
+           本软件为参赛演示版本，后期将会完善所有基础功能以及附加功能，
+           跟着酒店去旅行的具体服务内容由跟着酒店去旅行根据实际情况提供
+           ，例如个人信息、个人分享信息以及评论，在线交流等。
+           跟着酒店去旅行保留变更、中断或终止部分网络服务的权利。\n
+               跟着酒店去旅行保留根据实际情况随时调整跟着酒店去旅行平台提供的服务种类、形式。
+               跟着酒店去旅行不承担因业务调整给用户造成的损失。"
+        android:textSize="15.0sp" />
+</RelativeLayout>

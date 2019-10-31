@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/home_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <EditText android:textSize="16.0sp" android:layout_gravity="center_vertical" android:id="@id/search_et_input" android:background="@drawable/search_edittext_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:hint="请输入关键字" android:drawableLeft="@drawable/search_icon" android:drawablePadding="5.0dip" android:inputType="text" android:imeOptions="actionSearch" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/search_iv_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:src="@drawable/iv_delete_bg" />
+        </FrameLayout>
+        <Button android:textColor="@color/color_white" android:layout_gravity="center_vertical" android:id="@id/search_btn_back" android:background="@drawable/btn_search_bg" android:layout_width="@dimen/btn_width" android:layout_height="@dimen/btn_height" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="搜索" />
+    </LinearLayout>
+</LinearLayout>
